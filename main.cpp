@@ -40,14 +40,14 @@ int main()
 	else
 		chike.letterGrade = 'F';
 
-    cout<<setw(65)<<"Student Record"<<endl;
-    cout<<setw(65)<<"--------------"<<endl;
-	cout<<setw(69)<<"Student's quiz 1 score: "<<chike.quiz1<<endl;
-    cout<<setw(69)<<"Student's quiz 2 score: "<<chike.quiz2<<endl;
-    cout<<setw(69)<<"Student's midterm exam score: "<<chike.midTerm<<endl;
-    cout<<setw(69)<<"Student's final exam score: "<<chike.finalExam<<endl;
-    cout<<setw(69)<<"Student's average score: "<<chike.averageScore<<endl;
-    cout<<setw(69)<<"Student's letter grade: "<<chike.letterGrade<<"\n\n";
+    cout<<setw(55)<<"Student Record"<<endl;
+    cout<<setw(55)<<"--------------"<<endl;
+	cout<<setw(59)<<"Student's quiz 1 score: "<<chike.quiz1<<endl;
+    cout<<setw(59)<<"Student's quiz 2 score: "<<chike.quiz2<<endl;
+    cout<<setw(65)<<"Student's midterm exam score: "<<chike.midTerm<<endl;
+    cout<<setw(63)<<"Student's final exam score: "<<chike.finalExam<<endl;
+    cout<<setw(60)<<"Student's average score: "<<chike.averageScore<<endl;
+    cout<<setw(59)<<"Student's letter grade: "<<chike.letterGrade<<"\n\n";
 
 	return 0;
 }
